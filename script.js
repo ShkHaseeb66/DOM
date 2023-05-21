@@ -91,6 +91,21 @@ var formElement = document.getElementById("myForm");
 formElement.submit();
 // These examples demonstrate some of the common activities you can perform in the DOM using JavaScript. Remember, the DOM offers a wide range of methods and properties, providing great flexibility in manipulating and interacting with HTML elements.
 
+click: Fires when a mouse click occurs on the specified element.
+submit: Fires when a form is submitted.
+keydown: Fires when a keyboard key is pressed down.
+keyup: Fires when a keyboard key is released.
+mouseover: Fires when the mouse pointer enters the specified element.
+mouseout: Fires when the mouse pointer leaves the specified element.
+change: Fires when the value of an input element or select dropdown changes.
+focus: Fires when an element receives focus (e.g., when an input field is clicked).
+blur: Fires when an element loses focus (e.g., when an input field is clicked outside of).
+load: Fires when a page or an element has finished loading.
+const button = document.getElementById('my-button');
 
+button.addEventListener('click', function() {
+  // Code to execute when the button is clicked
+  console.log('Button clicked!');
+});
 
 
